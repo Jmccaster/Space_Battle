@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Battle Aliens</h1>
+    <div class="gameBoard">
+      <div class="ship">
+        <img
+          src="https://toppng.com/uploads/preview/spaceship-png-11552958709h3wivxsmok.png"
+          alt=""
+          class="shipPic"
+        />
+      </div>
+
+      <div class="aliens">
+        <img
+          src="https://img.lovepik.com/element/40155/7791.png_300.png"
+          alt=""
+          class="alienPic"
+        />
+      </div>
+    </div>
+
+    <div class="btnContainer">
+      <button onclick="fire()" class="attackBtn">Attack</button>
+      <button onclick="escape()" disabled class="retreatBtn">Retreat</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

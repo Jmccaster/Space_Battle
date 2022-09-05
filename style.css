@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://unsplash.com/photos/uhjiu8FjnsQ/download");
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.gameBoard {
+  border: solid white;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ship {
+  /* border: solid red; */
+  width: 10%;
+  height: 25%;
+  margin-top: 15%;
+}
+
+.aliens {
+  /* border: solid blue; */
+  width: 10%;
+  height: 25%;
+  margin-top: 15%;
+}
+
+.shipPic {
+  width: 100%;
+  height: 100%;
+}
+
+.alienPic {
+  width: 100%;
+  height: 100%;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
